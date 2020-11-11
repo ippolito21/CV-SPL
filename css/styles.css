@@ -1,0 +1,13 @@
+table, th, td {
+border: 1px solid black;
+}
+
+th, td {
+    padding: 14px;
+  }
+
+ li a:hover {
+      background_color: rgb(58, 21, 73);
+  }
+
+   
