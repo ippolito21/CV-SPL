@@ -9,5 +9,10 @@ th, td {
  li a:hover {
       background_color: rgb(58, 21, 73);
   }
-
-   
+img {
+  padding: 35px;
+}
+#mot{
+  padding: 20px;
+  margin: 20px;
+}
