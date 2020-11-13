@@ -8,56 +8,76 @@
 
 </head>
 <body>
+    <!-- info profit -->
     <p>Nom</p>
     <p>Prénom</p>
     <p>Adresse</p>
     <p>Télephone</p>
-    <img src ="./images/photo-femme-metisse.jpg" alt="ma photo"><br><p id="mot">Photo de moi</p>
+    <figure>
+    <img src ="./images/photo-femme-metisse.jpg" alt="ma photo"><br>
+    <figcaption>Photo de moi</figcaption>   
+    </figure>
+    <!-- info profit -->
+
+    <!-- Titre -->
     <h1>Développeur Web</h1><hr>
     <h2>Menu</h2>
+    <!-- Titre -->
+
+    <!-- Menu -->
     <nav>
     <ul>
-        <li><a href="#S1">Expériences professionnelles</a></li>
-        <li><a href="#S2">Formations</a></li>
-        <li><a href="#S3">Portfolio</a></li>
-        <li><a href="#S4">Contact</a></li>
+        <li><a href="#Expériences">Expériences professionnelles</a></li>
+        <li><a href="#Formation">Formations</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#Contact">Contact</a></li>
     </ul>
     </nav><hr>
+    <!-- Menu -->
 
     <p><strong>A propos</strong> : Madame, Monsieur, un naturel <strong>réfléchi</strong> et <mark>organisé</mark>, je suis capable de m'adapter à un poste de travail et à une équipe assez rapidement. Autodidacte, j'apprends vite et je serai ravi.e de mettre ces qualités au services de votre entreprise </p><hr>
 
-
-            <h2 id="S1">Expériences professionnelles</h2>
+            <!-- Expériences -->
+            <h2 id="Expériences">Expériences professionnelles</h2>
         <table>
           <tr>
-            <th>2016-2017</th>
-            <td><strong>Developpeur.euse front</strong></td>
+            <td><b>2016-2017</b></td> <!--td et non th pour les chiffres -->
+            <td><b>Developpeur.euse front</b></td>
             <td>Intégration et test pour l'appli pour l'entreprise Chanel</td>
           </tr>
             <tr>
-            <th>2018-2019</th>
-            <td><strong>Developpeur.euse back</strong></td>
+            <td><b>2018-2019</b></td>
+            <td><b>Developpeur.euse back</b></td>
             <td>Création de base de données pour l'entreprise Daylimotion</td>
             </tr>
-            <th>2019-2020</th>
-            <td><strong>Developpeur.euse fullstack</strong></td>
-            <td>Céation du nouveau site de Google</td>
+            <td><b>2019-2020</b></td>
+            <td><b>Developpeur.euse fullstack</b></td>
+            <td>Création du nouveau site de Google</td>
           </tr>
       </table>
+            <!-- Expériences -->
+
         </tr><hr>
-            <h2 id="S2">Formations</h2>
+            <!-- Formations -->
+            <h2 id="Formations">Formations</h2>
                 <ol>
-                    <li>2009-2014 : Masters en économie à Science po</li>
-                    <li>2014- 2014 : Formation Artis à Simplon</li>
-                    <li>2015-2016 : Formation Delevoppeuse à Simplon</li>
+                    <li><b>2009-2014</b>: Masters en économie à Science po</li>
+                    <li><b>2014- 2014</b>: Formation Artis à Simplon</li>
+                    <li><b>2015-2016</b>: Formation Delevoppeuse à Simplon</li>
                 </ol><hr>
-                    <h2 id="S3">Portfolio</h2>
+                <!-- Formations -->
+
+                    <!-- Portfolio -->
+                    <h2 id="Portfolio">Portfolio</h2>
                         <p>Voici mon travail</p>
                         <div>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/eRZHzi3l-4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <p>Voici le lien <a href="page.html">vers mon site</a></p><hr>
-                        <h2 id="S4">Contact</h2>
+                        <!-- portfolio -->
+
+                        <!-- Contact -->
+                        <h2 id="Contact">Contact</h2>
                         <form action="">
                             <label for=""></label>Nom :</label>
                                 <input type="text" name="Nom">
@@ -65,6 +85,8 @@
                                 <input type="text" adresse mail="Mail">
                                 <textarea name="message" id="" cols="30" rows="10">Votre message</textarea>
                                 <button type="button" onclick="alert('Hello World!')">Envoyer</button>
+                                <!-- input type="submit" value="Envoyer" --> <!--autre modéle du bouton-->
                             </form>
+                        <!-- Contact -->
 </body>
 </html>
